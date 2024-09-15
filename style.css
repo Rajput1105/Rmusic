@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Mouse+Memoirs&family=Splash&display=swap');
+
+/*
+
+
+body{ 
+    background-color: orange;
+
+}
+*{ margin: 0; 
+padding: 0;}
+
+nav ul li{ 
+    padding: 0 12px;
+}
+nav{ 
+    font-family:  'Anek Latin', sans-serif;
+}
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 224px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.band img{
+    height: 10px;
+    width: 50px;
+}
+.band{ 
+    font-weight: bold;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 71%;
+    margin: 25px auto;
+    padding-right: 25px;
+    border-radius: 15px;
+    background-image: url("music2.jpg");
+    background-repeat: no-repeat;
+}
+.bottom{ 
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#myProgressBar{
+    width: 75vw;
+}
+.songItem img{ 
+     width: 180px;
+   height: 100px;
+    border-radius: 50%;
+}
+.songItem{ 
+ 
+     width: 150%;
+     height:27%;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 40px;
+    border-radius: 30%;
+
+     
+}
+.timestamp{
+    margin:0 20px; 
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 0;
+}
+.artist{
+    position: absolute;
+    right: 0;
+    color: whitesmoke;
+}
+.songInfo img{
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+#masterPlay{
+    cursor: pointer;
+} */
+body {
+    background-color: #f8f9fa;
+    background-image: url('music2.jpg');
+    
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: white;
+    position:  fixed;
+    
+
+}
+
+.fixed-bottom {
+    background-color: #343a40;
+}
+
+#myProgressBar {
+    width: 80%;
+}
+
+.material-icons {
+    color: white;
+    cursor: pointer;
+}

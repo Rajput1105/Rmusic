@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Play Your Music</title>
+
+    <!-- Use Bootstrap 5 Only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">About Me </h5>
+              </button>
+            </div>
+            <div class="modal-body">
+                <br>
+                <br>
+              <h1>Made By :- Rahul Raj Singh</h1>
+              <H3 >Contact me :- rahulrajput110503@gmail.com</H3>
+              <H2>connect to me :- <a style="border: 5px; text-shadow: 5pt;" href="https://www.linkedin.com/in/rahul-raj-singh-474940229">linkedin</a>             </H2>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg " style="background-image: linear-gradient(to bottom right, rgb(7, 30, 65), rgb(23, 48, 132));">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"  >
+                <h3 style="font-weight: bolder; color: white;" >R MUSIC </h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: white;">Home</a></li>
+                    <li class="nav-item"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        About
+                      </button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content: Horizontal Song Cards -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-5" style="color:rgb(68, 131, 220);">Best of MUSIC</h1>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <!-- Song Card 1 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="music.jpg" class="card-img-top" alt="DARU BADNAAM Cover">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">DARU BADNAAM</h5>
+                        <p class="card-text">Duration: 05:31</p>
+                        <!-- Button to Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#songModal1">
+                            <i class="fas fa-play-circle"></i> Play
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Song Card 2 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.youtube.com/vi/m4wgLaMpN3Q/maxresdefault.jpg" class="card-img-top" alt="Sector 15 Video Thumbnail">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Sector 15</h5>
+                        <p class="card-text">Duration: 04:11</p>
+                        <!-- Button to Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#songModal2">
+                            <i class="fas fa-play-circle"></i> Play
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Song Card 3 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.youtube.com/vi/MoN9ql6Yymw/maxresdefault.jpg" class="card-img-top" alt="Sector 15 Video Thumbnail">
+
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Old Money</h5>
+                        <p class="card-text">Duration: 03:50</p>
+                        <!-- Button to Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#songModal3">
+                            <i class="fas fa-play-circle"></i> Play
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Song Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.youtube.com/vi/DeumyOzKqgI/maxresdefault.jpg" class="card-img-top" alt="Sector 15 Video Thumbnail">
+
+                    
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SkyFall</h5>
+                        <p class="card-text">Duration: 04:26</p>
+                        <!-- Button to Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#songModal4">
+                            <i class="fas fa-play-circle"></i> Play
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col"></div>
+                <div class="card h-100 w-100">
+                    <img src="https://img.youtube.com/vi/YGd1Dshf6i0/maxresdefault.jpg" class="card-img-top" alt="Sector 15 Video Thumbnail">
+
+                    
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Happy Nation</h5>
+                        <p class="card-text">Duration: 04:15</p>
+                        <!-- Button to Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#songModal4">
+                            <i class="fas fa-play-circle"></i> Play
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Song Card 4 -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://img.youtube.com/vi/fPO76Jlnz6c/maxresdefault.jpg" class="card-img-top" alt="Sector 15 Video Thumbnail">
+
+                    
+                    <div class="card-body text-center">
+                        <h5 class="card-title">SkyFall</h5>
+                        <p class="card-text">Duration: 04:26</p>
+                        <!-- Button to Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#songModal4">
+                            <i class="fas fa-play-circle"></i> Play
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+
+
+    <!-- Modals -->
+    <div class="modal fade" id="songModal1" tabindex="-1" aria-labelledby="songModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="songModalLabel">Now Playing: DARU BADNAAM</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="500" height="380" src="https://www.youtube.com/embed/bzW9fmwcmG4" title="Daru Badnaam | Kamal Kahlon & Param Singh | Official Video"></iframe>
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="songModal2" tabindex="-1" aria-labelledby="songModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="songModalLabel2">Now Playing: Sector 15</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="500" height="380" src="https://www.youtube.com/embed/m4wgLaMpN3Q" title="Sector 15 (Music Video) Khasa Aala Chahar | New Haryanvi Song 2024"></iframe>
+                </div>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+            </div>
+        </div>
+    </div>
+<!-- Modals for Old Money and Skyfall -->
+<div class="modal fade" id="songModal3" tabindex="-1" aria-labelledby="songModalLabel3" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="songModalLabel3">Now Playing: Old Money</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe width="500" height="380" src="https://www.youtube.com/embed/fPO76Jlnz6c" title="AP Dhillon - Old Money (Official Audio)"></iframe>
+            </div>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="songModal4" tabindex="-1" aria-labelledby="songModalLabel4" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="songModalLabel4">Now Playing: Skyfall</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <iframe width="500" height="380" src="https://www.youtube.com/embed/DeumyOzKqgI" title="Adele - Skyfall (Official Lyric Video)"></iframe>
+            </div>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+    </div>
+</div>
+
+    <!-- Music Player at Bottom -->
+    <div class="fixed-bottom bg-dark p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>
+                <input type="range" class="form-range" id="myProgressBar" value="0" min="0" max="100">
+            </div>
+            <div class="d-flex align-items-center">
+                <button class="btn btn-primary">
+                    <i class="bi bi-arrow-left-square-fill"></i>
+                </button>
+                <button id="masterPlay" class="btn btn-primary">
+                    <i id="playIcon" class="bi bi-play-circle-fill"></i>
+                </button>
+                <button class="btn btn-primary">
+                    <i class="bi bi-arrow-right-square-fill"></i>
+                </button>
+            </div>
+            <div class="d-flex align-items-center">
+                <img id="gif" src="LZwX.gif" width="60px" class="me-3" alt="">
+                <h5 class="text-white mb-0">DARU BADNAAM - RAHUL_RAJ_SINGH</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
